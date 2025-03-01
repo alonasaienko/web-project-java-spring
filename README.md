@@ -1,30 +1,33 @@
-# calculator
+# Jacobi-Solver
 
-This template should help get you started developing with Vue 3 in Vite.
+## Description
+A web-based calculator for solving systems of linear algebraic equations (SLAE). The application supports authentication, result history for authenticated users, and a tab system for organizing calculations.
 
-## Recommended IDE Setup
+## Features
+- Solve SLAE with a user-friendly interface  
+- Authentication system with JWT  
+- Calculation history (available for authenticated users)  
+- Tab-based navigation:
+  - **Current results**
+  - **Processing**
+  - **History** (restricted for unauthenticated users)  
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Technologies Used
+- **Frontend**: Vue.js (Vite)  
+- **Backend**: Spring Boot  
+- **Authentication**: JWT  
+- **Database**: PostgreSQL  
 
-## Customize configuration
+## Installation
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### Backend
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/alonasaienko/web-project-java-spring.git
 
-## Project Setup
+2. Build and run the Spring Boot application:
+  ```sh
+  cd backend
+  mvn clean install
+  mvn spring-boot:run
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-# web-project-java-spring
